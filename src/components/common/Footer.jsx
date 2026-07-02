@@ -16,22 +16,22 @@ function Footer() {
 
             <div className="footer-column">
               <h3>SERVICES</h3>
-              <a href="/">Cloud Engineering</a>
-              <a href="/">Security Audits</a>
-              <a href="/">Data Pipelines</a>
+              <a href="/" className="highlight">Cloud Engineering</a>
+              <a href="/" className="highlight">Security Audits</a>
+              <a href="/" className="highlight">Data Pipelines</a>
             </div>
 
             <div className="footer-column">
               <h3>COMPANY</h3>
-              <a href="/">About</a>
+              <a href="/" className="highlight">About</a>
               <a href="/" className="highlight">Careers</a>
-              <a href="/">Contact</a>
+              <a href="/" className="highlight">Contact</a>
             </div>
 
             <div className="footer-column">
               <h3>LEGAL</h3>
-              <a href="/">Privacy Policy</a>
-              <a href="/">Terms of Service</a>
+              <a href="/" className="highlight">Privacy Policy</a>
+              <a href="/" className="highlight">Terms of Service</a>
             </div>
 
           </div>
