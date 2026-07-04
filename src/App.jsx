@@ -1,11 +1,7 @@
-import Footer from "./components/common/Footer";
+import Portfolio from "./pages/Portfolio";
 
 function App() {
-  return (
-    <div>
-      <Footer />
-    </div>
-  );
+  return <Portfolio />;
 }
 
 export default App;
