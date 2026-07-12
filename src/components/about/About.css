@@ -1,4 +1,4 @@
-/* ABOUT HERO */
+
 
 .about-hero {
   padding: 140px 20px 130px;
@@ -38,7 +38,7 @@
   line-height: 1.9;
 }
 
-/* Responsive */
+
 
 @media (max-width:768px) {
 
@@ -55,9 +55,7 @@
   }
 
 }
-/* ===========================
-   Mission & Vision
-=========================== */
+
 
 .mission-section {
   background: #F5F3FA;
@@ -117,9 +115,7 @@ font-size:32px;
 }
 
 }
-/* ===========================
-   Core Values
-=========================== */
+
 
 .core-values{
   padding:120px 20px;
@@ -196,9 +192,7 @@ font-size:36px;
 }
 
 }
-/* ===========================
-   Timeline
-=========================== */
+
 
 .timeline-section{
   padding:120px 20px;
@@ -312,9 +306,7 @@ left:14px;
 }
 
 }
-/* ===========================
-   CTA
-=========================== */
+
 
 .about-cta{
   background:#07184A;
