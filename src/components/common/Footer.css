@@ -1,110 +1,68 @@
 .footer {
-  width: 100%;
-  background: #ffffff;
-  border-top: 1px solid #e5e1d8;
-  padding: 120px 64px;
-  font-family: sans-serif;
-}
+  background: #FDFBF7;
+  border-top: 1px solid #E5E1D8;
 
-.footer-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
+  max-width: 100%;
+  padding: 80px 60px;
 
-.footer-top {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 60px;
-  flex-wrap: wrap;
+  gap: 80px;
 }
 
-.footer-brand h1 {
-  font-size: 64px;
-  color: #001f7f;
-  margin-bottom: 12px;
+.footer-logo h2 {
+  color: #07184A;
+  font-size: 42px;
+  margin-bottom: 15px;
 }
 
-.footer-brand p {
-  font-size: 20px;
+.footer-logo p {
   color: #666;
 }
 
 .footer-links {
   display: flex;
-  gap: 80px;
-  flex-wrap: wrap;
+  gap: 90px;
 }
 
 .footer-column {
   display: flex;
   flex-direction: column;
-  gap: 18px;
 }
 
-.footer-column h3 {
-  font-size: 16px;
-  letter-spacing: 2px;
-  color: #001f7f;
+.footer-column h4 {
+  margin-bottom: 18px;
+  font-size: 15px;
+  color: #07184A;
 }
 
 .footer-column a {
-  text-decoration: underline;
-  color: #555;
-  font-size: 18px;
-  transition: color 0.3s ease;
-}
-.highlight:hover {
-  color: red;
-}
-.footer-bottom {
-  margin-top: 60px;
-  padding-top: 24px;
-  border-top: 1px solid #ececec;
+  color: #07184A;
+  text-decoration: none;
+  margin-bottom: 12px;
+  transition: 0.3s;
 }
 
-.footer-bottom p {
-  color: #888;
-  font-size: 18px;
+.footer-column a:hover {
+  color: #07184A;
 }
 
-/* Mobile Responsive */
+.copyright {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #666;
+}
 
-@media screen and (max-width: 768px) {
-
+@media (max-width: 900px) {
   .footer {
-    padding: 32px 20px;
-  }
-
-  .footer-top {
     flex-direction: column;
+    padding: 50px 25px;
     gap: 40px;
-  }
-
-  .footer-brand h1 {
-    font-size: 42px;
-  }
-
-  .footer-brand p {
-    font-size: 16px;
   }
 
   .footer-links {
-    width: 100%;
-    justify-content: space-between;
-    gap: 40px;
-  }
-
-  .footer-column {
-    min-width: 120px;
-  }
-
-  .footer-column a {
-    font-size: 16px;
-  }
-
-  .footer-bottom p {
-    font-size: 16px;
+    flex-direction: column;
+    gap: 30px;
   }
 }
