@@ -10,30 +10,30 @@ const Footer = () => {
       </div>
 
       <div className="footer-links">
+<div className="footer-column services">
+  <h4>Services</h4>
+  <a href="#">Cloud Engineering</a>
+  <a href="#">Security Audits</a>
+  <a href="#">Data Pipelines</a>
+</div>
 
-        <div className="footer-column">
-          <h4>Services</h4>
-          <a href="#">Cloud Engineering</a>
-          <a href="#">Security Audits</a>
-          <a href="#">Data Pipelines</a>
-        </div>
+<div className="footer-column">
+  <h4>Company</h4>
+  <a href="#">About Us</a>
+  <a href="#">Careers</a>
+  <a href="#">Contact</a>
+</div>
 
-        <div className="footer-column">
-          <h4>Company</h4>
-          <a href="#">About Us</a>
-          <a href="#">Careers</a>
-          <a href="#">Contact</a>
-        </div>
+<div className="footer-column legal">
+  <h4>Legal</h4>
+  <a href="#">Privacy Policy</a>
+  <a href="#">Terms of Service</a>
 
-        <div className="footer-column">
-          <h4>Legal</h4>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-
-          <p className="copyright">
-            © 2024 ViworkTech. All rights reserved.
-          </p>
-        </div>
+  <p className="copyright">
+    © 2024 ViworkTech. All rights reserved.
+  </p>
+</div>
+        
 
       </div>
 
