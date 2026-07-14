@@ -1,0 +1,219 @@
+.careers-hero {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero-label {
+  color: #d14a28;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.hero-left h1 {
+  font-size: 64px;
+  color: #1b2559;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+.hero-left h1 span {
+  color: #d14a28;
+  font-style: italic;
+}
+
+.hero-description {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.8;
+}
+
+.hero-right {
+  flex: 1;
+}
+
+.hero-right img {
+  width: 100%;
+  display: block;
+}
+/* BENEFITS */
+
+.benefits {
+  background: #f4f4fb;
+  padding: 90px 20px;
+}
+
+.benefits-header {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.benefits-header h2 {
+  font-size: 48px;
+  color: #1b2559;
+  margin-bottom: 20px;
+}
+
+.benefits-header p {
+  color: #666;
+  max-width: 700px;
+  line-height: 1.8;
+}
+
+.benefits-grid {
+  max-width: 1200px;
+  margin: 60px auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.benefit-card {
+  background: white;
+  padding: 40px;
+  border: 1px solid #e5e5e5;
+}
+
+.benefit-card h3 {
+  color: #1b2559;
+  margin-bottom: 20px;
+}
+
+.benefit-card p {
+  color: #666;
+  line-height: 1.8;
+}
+/* OPEN POSITIONS */
+
+.positions {
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+.positions-label {
+  color: #1b2559;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.position-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
+  border-top: 1px solid #ddd;
+}
+
+.department {
+  display: inline-block;
+  border: 1px solid #1b2559;
+  color: #1b2559;
+  padding: 3px 10px;
+  font-size: 11px;
+  margin-bottom: 12px;
+}
+
+.position-card h3 {
+  font-size: 30px;
+  color: #1b2559;
+}
+
+.position-right {
+  text-align: right;
+}
+
+.position-right p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.position-right a {
+  color: #d14a28;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* APPLICATION FORM */
+
+.application {
+  padding: 100px 20px;
+  background: #faf9f6;
+}
+
+.application-box {
+  max-width: 900px;
+  margin: auto;
+  border: 1px solid #ddd;
+  padding: 60px;
+  background: white;
+}
+
+.application-box h2 {
+  text-align: center;
+  font-size: 48px;
+  color: #1b2559;
+}
+
+.application-box p {
+  text-align: center;
+  color: #666;
+  margin: 20px 0 50px;
+}
+
+.application-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+label {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input,
+select,
+textarea {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 12px 0;
+  font-size: 15px;
+  outline: none;
+  background: transparent;
+}
+
+textarea {
+  resize: none;
+}
+
+.application-form button {
+  grid-column: span 2;
+  width: 260px;
+  padding: 16px;
+  background: #0d1f66;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
