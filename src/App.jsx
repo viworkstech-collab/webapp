@@ -1,7 +1,7 @@
-import Portfolio from "./pages/Portfolio";
+import Blog from "./pages/Blog";
 
 function App() {
-  return <Portfolio />;
+  return <Blog />;
 }
 
 export default App;
