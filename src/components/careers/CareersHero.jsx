@@ -7,7 +7,7 @@ const CareersHero = () => {
         <p className="hero-label">JOIN OUR TEAM</p>
 
         <h1>
-          Build the <span>future</span>
+          Build the <span className="hover-link">future</span>
           <br />
           with us.
         </h1>
@@ -19,7 +19,7 @@ const CareersHero = () => {
         </p>
       </div>
 
-      <div className="hero-right">
+      <div className="hero-right hover-img">
         <img
           src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900"
           alt="Office"

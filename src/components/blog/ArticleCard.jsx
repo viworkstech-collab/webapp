@@ -1,13 +1,15 @@
 const ArticleCard = ({ category, date, title }) => {
   return (
-    <div className="article-card">
+    <div className="article-card hover-card">
       <p className="article-meta">
         {category} &nbsp;&nbsp; {date}
       </p>
 
       <h3>{title}</h3>
 
-      <a href="/">Read Article →</a>
+      <a href="/" className="hover-link">
+        Read Article →
+      </a>
     </div>
   );
 };

@@ -56,14 +56,14 @@ const Capabilities = () => {
           <h2>Tailored Engineering</h2>
         </div>
 
-        <button className="explore-btn">Explore Services</button>
+        <button className="explore-btn hover-card">Explore Services</button>
       </div>
 
       <div className="cap-grid">
         {cards.map((card, index) => (
           <div
   key={index}
-  className={`cap-card ${
+  className={`cap-card hover-card ${
     index === 0
       ? "large-card"
       : index === 1

@@ -14,7 +14,7 @@ const ContactHero = () => {
         <div className="contact-left">
 
           <h1>
-            Let's <span>build</span> something
+            Let's <span className="hover-link">build</span> something
             <br />
             together.
           </h1>
@@ -43,15 +43,15 @@ const ContactHero = () => {
           </div>
 
           <div className="social-icons">
-            <button><FaInstagram /></button>
-            <button><FaLinkedinIn /></button>
-            <button><FaGlobe /></button>
+            <button className="hover-btn"><FaInstagram /></button>
+            <button className="hover-btn"><FaLinkedinIn /></button>
+            <button className="hover-btn"><FaGlobe /></button>
           </div>
 
         </div>
 
         {/* Right Side */}
-        <div className="contact-form">
+        <div className="contact-form hover-card">
 
           <div className="row">
 
@@ -80,7 +80,7 @@ const ContactHero = () => {
             ></textarea>
           </div>
 
-          <button className="send-btn">
+          <button className="send-btn hover-btn">
             Send Inquiry
           </button>
 

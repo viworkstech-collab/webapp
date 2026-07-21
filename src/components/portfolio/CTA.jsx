@@ -13,15 +13,13 @@ const CTA = () => {
 
       <div className="cta-buttons">
 
-        
+        <a href="/contact" className="primary-btn hover-btn">
+          Start a Conversation
+        </a>
 
-<a href="/contact" className="primary-btn">
-  Start a Conversation
-</a>
-
-<a href="/services" className="secondary-btn">
-  View Services
-</a>
+        <a href="/services" className="secondary-btn hover-btn">
+          View Services
+        </a>
 
       </div>
 

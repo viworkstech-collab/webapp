@@ -12,7 +12,7 @@ const AboutHero = () => {
         <h1>
           We're engineers who care
           <br />
-          about your <span>outcome.</span>
+          about your <span className="hover-link">outcome.</span>
         </h1>
 
         <p className="about-description">

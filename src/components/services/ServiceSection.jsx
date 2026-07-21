@@ -5,19 +5,19 @@ const ServiceSection = () => {
   return (
     <section className="service-section">
       {services.map((service) => (
-        <div className="service-card" key={service.id}>
+        <div className="service-card hover-card" key={service.id}>
           {/* Left Side */}
           <div className="service-left">
             <span className="service-number">{service.id}</span>
 
             <div>
-              <h2>{service.title}</h2>
+              <h2 className="hover-link">{service.title}</h2>
 
               <p>{service.description}</p>
 
               <div className="tags">
                 {service.tags.map((tag, index) => (
-                  <span key={index} className="tag">
+                  <span key={index} className="tag hover-tag">
                     {tag}
                   </span>
                 ))}

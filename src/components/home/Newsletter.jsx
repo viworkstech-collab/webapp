@@ -21,11 +21,14 @@ const Newsletter = () => {
             type="email"
             placeholder="Email Address"
           />
-          <button>Subscribe</button>
+
+          <button className="hover-btn">
+            Subscribe
+          </button>
         </div>
       </div>
 
-      <div className="newsletter-right">
+      <div className="newsletter-right hover-img">
         <img src={building} alt="Building" />
       </div>
     </section>

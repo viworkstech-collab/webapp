@@ -21,7 +21,7 @@ const Hero = () => {
           Start Project
         </button>
 
-        <button className="home-secondary-btn">
+        <button className="home-secondary-btn hover-btn">
           View Portfolio
         </button>
       </div>

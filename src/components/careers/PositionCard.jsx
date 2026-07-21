@@ -1,6 +1,6 @@
 const PositionCard = ({ department, title, location }) => {
   return (
-    <div className="position-card">
+    <div className="position-card hover-card">
       <div>
         <span className="department">{department}</span>
 
@@ -10,7 +10,9 @@ const PositionCard = ({ department, title, location }) => {
       <div className="position-right">
         <p>{location}</p>
 
-        <a href="/">APPLY NOW</a>
+        <a href="/" className="hover-link">
+          APPLY NOW
+        </a>
       </div>
     </div>
   );

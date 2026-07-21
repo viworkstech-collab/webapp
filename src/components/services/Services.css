@@ -1,10 +1,14 @@
+/* ==========================
+   SERVICES HERO
+========================== */
+
 .services-hero {
   padding: 80px 64px;
-  background: #fdfbf7;
+  background: #FDFBF7;
 }
 
 .hero-subtitle {
-  color: #c54b32;
+  color: #C54B32;
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -24,6 +28,11 @@
   line-height: 1.8;
   color: #555;
 }
+
+/* ==========================
+   SERVICES
+========================== */
+
 .service-section {
   padding: 60px 64px;
 }
@@ -31,10 +40,17 @@
 .service-card {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 60px;
-  padding: 50px 0;
-  border-top: 1px solid #e5e1d8;
+  gap: 40px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0,0,0,.12);
 }
 
 .service-left {
@@ -45,13 +61,14 @@
 
 .service-number {
   font-size: 70px;
-  color: #f2eee7;
-  font-weight: bold;
+  font-weight: 700;
+  color: #EFEAE2;
 }
 
 .service-left h2 {
-  font-size: 42px;
+  font-size: 40px;
   margin-bottom: 20px;
+  color: #222;
 }
 
 .service-left p {
@@ -62,36 +79,41 @@
 
 .tags {
   display: flex;
-  gap: 10px;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 .tag {
-  background: #07184a;
+  background: #07184A;
   color: white;
   padding: 6px 12px;
   font-size: 12px;
+  border-radius: 4px;
 }
 
 .deliverables {
-  width: 380px;
-  background: #f7f5fb;
-  padding: 25px;
+  width: 360px;
+  background: #F7F5FB;
+  padding: 24px;
+  border-radius: 12px;
 }
 
 .deliverables h4 {
+  color: #07184A;
   margin-bottom: 20px;
-  color: #07184a;
 }
 
 .deliverables ul {
   list-style: none;
-  padding: 0;
 }
 
 .deliverables li {
-  margin-bottom: 15px;
+  margin-bottom: 14px;
 }
+
+/* ==========================
+   PROCESS
+========================== */
 
 .process-section {
   background: #07184A;
@@ -102,9 +124,8 @@
 .process-header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  gap: 50px;
   margin-bottom: 60px;
-  gap: 40px;
 }
 
 .process-subtitle {
@@ -121,19 +142,20 @@
 
 .process-text {
   max-width: 380px;
-  color: #d7d7d7;
+  color: #d6d6d6;
   line-height: 1.8;
 }
 
 .process-cards {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4,1fr);
   gap: 25px;
 }
 
 .process-card {
-  border: 1px solid rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,.15);
   padding: 30px;
+  border-radius: 12px;
 }
 
 .phase {
@@ -152,125 +174,152 @@
   line-height: 1.7;
 }
 
+/* ==========================
+   CTA
+========================== */
+
 .cta-section {
-  padding: 100px 64px;
-  text-align: center;
   background: #FDFBF7;
+  padding: 90px 20px;
+  text-align: center;
 }
 
 .cta-section h2 {
   font-size: 48px;
-  color: #222;
   line-height: 1.2;
+  color: #222;
   margin-bottom: 40px;
 }
 
 .cta-buttons {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 18px;
 }
 
-.primary-btn {
+/* Dedicated button classes */
+
+.services-primary-btn,
+.services-secondary-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 190px;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.services-primary-btn {
   background: #07184A;
-  color: white;
-  border: none;
-  padding: 16px 32px;
-  cursor: pointer;
+  color: #fff;
 }
 
-.secondary-btn {
-  background: transparent;
+.services-secondary-btn {
+  background: #fff;
   color: #222;
-  border: 1px solid #ddd;
-  padding: 16px 32px;
-  cursor: pointer;
+  border: 1px solid #d9d9d9;
 }
 
-@media (max-width: 1024px) {
-  .services-hero,
-  .service-section,
-  .process-section,
-  .cta-section {
-    padding: 60px 40px;
-  }
-
-  .service-card {
-    flex-direction: column;
-  }
-
-  .deliverables {
-    width: 100%;
-  }
-
-  .process-header {
-    flex-direction: column;
-  }
-
-  .process-cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .hero-title {
-    font-size: 48px;
-  }
-
-  .process-title {
-    font-size: 42px;
-  }
-
-  .cta-section h2 {
-    font-size: 38px;
-  }
-  
+.services-primary-btn:hover,
+.services-secondary-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,.15);
 }
 
-@media (max-width: 768px) {
-  .services-hero,
-  .service-section,
-  .process-section,
-  .cta-section {
-    padding: 40px 20px;
-  }
+/* ==========================
+   RESPONSIVE
+========================== */
 
-  .hero-title {
-    font-size: 34px;
-  }
+@media(max-width:1024px){
 
-  .hero-description {
-    font-size: 16px;
-  }
+.service-section,
+.services-hero,
+.process-section,
+.cta-section{
+padding:60px 40px;
+}
 
-  .service-left {
-    flex-direction: column;
-  }
+.service-card{
+flex-direction:column;
+}
 
-  .service-left h2 {
-    font-size: 30px;
-  }
+.deliverables{
+width:100%;
+}
 
-  .service-number {
-    font-size: 48px;
-  }
+.process-header{
+flex-direction:column;
+}
 
-  .process-cards {
-    grid-template-columns: 1fr;
-  }
+.process-cards{
+grid-template-columns:repeat(2,1fr);
+}
 
-  .process-title {
-    font-size: 34px;
-  }
+.hero-title{
+font-size:48px;
+}
 
-  .cta-section h2 {
-    font-size: 30px;
-  }
+.process-title{
+font-size:42px;
+}
 
-  .cta-buttons {
-    flex-direction: column;
-  }
-  
-  .primary-btn,
-  .secondary-btn {
-    width: 100%;
-  }
+.cta-section h2{
+font-size:38px;
+}
+
+}
+
+@media(max-width:768px){
+
+.services-hero,
+.service-section,
+.process-section,
+.cta-section{
+padding:40px 20px;
+}
+
+.hero-title{
+font-size:34px;
+}
+
+.hero-description{
+font-size:16px;
+}
+
+.service-left{
+flex-direction:column;
+}
+
+.service-left h2{
+font-size:30px;
+}
+
+.service-number{
+font-size:48px;
+}
+
+.process-cards{
+grid-template-columns:1fr;
+}
+
+.process-title{
+font-size:34px;
+}
+
+.cta-section h2{
+font-size:30px;
+}
+
+.cta-buttons{
+flex-direction:column;
+align-items:center;
+}
+
+.services-primary-btn,
+.services-secondary-btn{
+width:220px;
+}
+
 }

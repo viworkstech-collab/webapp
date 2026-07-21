@@ -19,7 +19,7 @@ const ClientLogos = () => {
   return (
     <section className="clients">
       {clients.map((client, index) => (
-        <div className="client-item" key={index}>
+        <div className="client-item hover-card" key={index}>
           <span className="client-icon">{client.icon}</span>
           <span>{client.name}</span>
         </div>

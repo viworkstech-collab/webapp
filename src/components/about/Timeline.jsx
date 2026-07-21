@@ -38,20 +38,20 @@ const Timeline = () => {
 
         <div className="timeline">
 
-          {timelineData.map((item, index) => (
-            <div
-              className={`timeline-item ${
-                index % 2 === 0 ? "left" : "right"
-              }`}
-              key={index}
-            >
-              <div className="timeline-content">
-                <small>{item.year}</small>
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
-              </div>
-            </div>
-          ))}
+         {timelineData.map((item, index) => (
+  <div
+    className={`timeline-item ${
+      index % 2 === 0 ? "left" : "right"
+    }`}
+    key={index}
+  >
+    <div className="timeline-content hover-card">
+      <small>{item.year}</small>
+      <h3>{item.title}</h3>
+      <p>{item.description}</p>
+    </div>
+  </div>
+))}
 
         </div>
 

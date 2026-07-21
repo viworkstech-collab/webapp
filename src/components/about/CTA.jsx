@@ -16,7 +16,7 @@ const CTA = () => {
           help your business scale with confidence.
         </p>
 
-        <button>
+        <button className="hover-btn">
           Initiate a Consultation
         </button>
 

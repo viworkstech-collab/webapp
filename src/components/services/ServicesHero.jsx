@@ -6,7 +6,7 @@ const ServicesHero = () => {
       <p className="hero-subtitle">Our Expertise</p>
 
       <h1 className="hero-title">
-        What we build and how
+        What we <span className="hover-link">build</span> and how
         <br />
         we deliver it.
       </h1>

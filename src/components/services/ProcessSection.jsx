@@ -11,7 +11,7 @@ const ProcessSection = () => {
           <h2 className="process-title">
             A framework of
             <br />
-            absolute precision.
+            <span className="hover-link">absolute precision.</span>
           </h2>
         </div>
 
@@ -23,10 +23,10 @@ const ProcessSection = () => {
 
       <div className="process-cards">
         {processData.map((item, index) => (
-          <div className="process-card" key={index}>
+          <div className="process-card hover-card" key={index}>
             <p className="phase">{item.phase}</p>
 
-            <h3>{item.title}</h3>
+            <h3 className="hover-link">{item.title}</h3>
 
             <p>{item.description}</p>
           </div>

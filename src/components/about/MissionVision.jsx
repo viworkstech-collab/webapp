@@ -5,7 +5,7 @@ const MissionVision = () => {
     <section className="mission-section">
       <div className="mission-container">
 
-        <div className="mission-card">
+        <div className="mission-card hover-card">
           <p className="card-number">01 / OUR MISSION</p>
 
           <h2>
@@ -21,7 +21,7 @@ const MissionVision = () => {
           </p>
         </div>
 
-        <div className="mission-card">
+        <div className="mission-card hover-card">
           <p className="card-number">02 / OUR VISION</p>
 
           <h2>

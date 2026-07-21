@@ -2,9 +2,11 @@ import "./Portfolio.css";
 
 const ProjectCard = ({ image, title, description }) => {
   return (
-    <div className="project-card">
+    <div className="project-card hover-card">
 
-      <img src={image} alt={title} />
+      <div className="project-image hover-img">
+        <img src={image} alt={title} />
+      </div>
 
       <div className="project-content">
         <h3>{title}</h3>

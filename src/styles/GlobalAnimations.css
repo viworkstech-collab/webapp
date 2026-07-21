@@ -1,0 +1,193 @@
+/* ==========================
+   GLOBAL CARD ANIMATION
+========================== */
+
+.hover-card{
+    transition: all .3s ease;
+    cursor:pointer;
+    border-radius:16px;
+}
+
+.hover-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+}
+
+/* ==========================
+   GLOBAL BUTTON ANIMATION
+========================== */
+
+.hover-btn{
+    transition:all .3s ease;
+    cursor:pointer;
+}
+
+.hover-btn:hover{
+    transform:translateY(-4px);
+    box-shadow:0 10px 25px rgba(0,0,0,.18);
+}
+
+/* ==========================
+   IMAGE ANIMATION
+========================== */
+
+.hover-img{
+    overflow:hidden;
+    border-radius:16px;
+}
+
+.hover-img img{
+    transition:transform .4s ease;
+}
+
+.hover-img:hover img{
+    transform:scale(1.05);
+}
+
+/* ==========================
+   LINKS
+========================== */
+
+.hover-link{
+    transition:color .3s ease;
+}
+
+.hover-link:hover{
+    color:#C54B32;
+}
+
+/* ==========================
+   INPUTS
+========================== */
+
+input,
+textarea{
+    transition:all .3s ease;
+}
+
+input:focus,
+textarea:focus{
+    border-color:#C54B32;
+    box-shadow:0 0 10px rgba(197,75,50,.2);
+    outline:none;
+}
+
+/* ==========================
+   TAGS
+========================== */
+
+.hover-tag{
+    transition:all .3s ease;
+}
+
+.hover-tag:hover{
+    background:#C54B32;
+    color:white;
+    transform:scale(1.05);
+}
+.hover-card .core-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.hover-card:hover .core-icon {
+  transform: scale(1.15) rotate(5deg);
+  color: #C54B32;
+}
+.hover-card small {
+  transition: color 0.3s ease;
+}
+
+.hover-card:hover small {
+  color: #C54B32;
+}
+.hover-card h3 {
+  transition: color 0.3s ease;
+}
+
+.hover-card:hover h3 {
+  color: #C54B32;
+}
+.category-tabs button {
+  transition: all 0.3s ease;
+}
+
+.category-tabs button:hover {
+  background: #07184A;
+  color: white;
+  border-color: #07184A;
+}
+/* ==========================
+   PAGINATION
+========================== */
+
+.page-numbers span {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.page-numbers span:hover {
+  color: #C54B32;
+  transform: scale(1.15);
+}
+
+.active-page {
+  font-weight: 700;
+}
+.hover-card h3 {
+  transition: color 0.3s ease;
+}
+
+.hover-card:hover h3 {
+  color: #C54B32;
+}
+/* ==========================
+   FORM INPUTS
+========================== */
+
+.application-form input,
+.application-form select,
+.application-form textarea {
+  transition: all 0.3s ease;
+}
+
+.application-form input:focus,
+.application-form select:focus,
+.application-form textarea:focus {
+  outline: none;
+  border-color: #C54B32;
+  box-shadow: 0 0 10px rgba(197, 75, 50, 0.2);
+}
+/* Contact Form Inputs */
+
+.contact-form input,
+.contact-form textarea {
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #C54B32;
+  box-shadow: 0 0 10px rgba(197, 75, 50, 0.2);
+}
+
+/* Social Icons */
+
+.social-icons button {
+  transition: all 0.3s ease;
+}
+
+.social-icons button:hover {
+  transform: translateY(-4px) scale(1.08);
+}
+/* Buttons and button-like links */
+
+.hover-btn {
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.hover-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}

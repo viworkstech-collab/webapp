@@ -21,9 +21,9 @@ const stats = [
 
 const Stats = () => {
   return (
-    <section className="home-stats-section">
+    <section className="home-stats-section ">
       {stats.map((item, index) => (
-        <div className="home-stat-card" key={index}>
+        <div className="home-stat-card hover-card" key={index}>
           <h2>{item.number}</h2>
           <p>{item.label}</p>
         </div>
