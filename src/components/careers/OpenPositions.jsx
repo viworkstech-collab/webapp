@@ -7,25 +7,30 @@ const OpenPositions = () => {
 
       <PositionCard
         department="ENGINEERING"
-        title="Senior Fullstack Engineer"
+        title="Frontend Developer"
         location="Remote / Full-time"
       />
 
       <PositionCard
         department="DESIGN"
-        title="Product Designer (Systems)"
+        title="Flutter Developer"
         location="Berlin or Remote"
       />
 
       <PositionCard
         department="OPERATIONS"
-        title="Technical Project Manager"
+        title="React Developer"
         location="New York / Hybrid"
       />
 
       <PositionCard
         department="MARKETING"
-        title="Growth & Data Analyst"
+        title="UI/UX Designer"
+        location="Remote"
+      />
+      <PositionCard
+        department="MARKETING"
+        title="Digital Marketing Executive"
         location="Remote"
       />
     </section>

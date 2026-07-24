@@ -7,15 +7,16 @@ const CareersHero = () => {
         <p className="hero-label">JOIN OUR TEAM</p>
 
         <h1>
-          Build the <span className="hover-link">future</span>
+          Build the Future <span className="hover-link"></span>
           <br />
           with us.
         </h1>
 
         <p className="hero-description">
-          We are a collective of engineers, designers, and dreamers
-          dedicated to building high-performance technical infrastructure.
-          Explore our open roles and find your next challenge.
+          At ViworkTech, you'll work alongside passionate developers, designers, 
+          and marketers to create innovative digital solutions for businesses worldwide.
+           Whether you're a fresher or an experienced professional, you'll find opportunities to learn, innovate, and grow.
+
         </p>
       </div>
 

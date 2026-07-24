@@ -5,15 +5,11 @@ const Hero = () => {
     <section className="hero">
 
       <h1>
-        Engineering software that
-        <br />
-        <span>scales</span> with you.
+       Building Digital Solutions That Drive Business Growth.
       </h1>
 
       <p>
-        We build architectural foundations for high-growth enterprises.
-        Sophisticated technical solutions delivered with Nordic precision
-        and editorial clarity.
+        We help startups and enterprises transform ideas into scalable web, mobile, and cloud applications through innovative technology and expert engineering.
       </p>
 
       <div className="hero-buttons">

@@ -2,10 +2,10 @@ import "./Contact.css";
 import { FaChevronDown } from "react-icons/fa";
 
 const faqs = [
-  "What is your typical project timeline?",
-  "Do you offer post-launch support?",
-  "How do we start a collaboration?",
-  "What technologies do you specialize in?"
+  "How soon will I receive a response?",
+  "Do you offer free consultations?",
+  "Do you offer free consultations?",
+  "Do you develop both Android and iOS apps?"
 ];
 
 const FAQ = () => {

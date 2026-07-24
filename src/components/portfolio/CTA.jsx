@@ -4,11 +4,10 @@ const CTA = () => {
   return (
     <section className="portfolio-cta">
 
-      <h2>Ready to build your next project?</h2>
+      <h2>Ready to Build Your Next Digital Success Story?</h2>
 
       <p>
-        Let’s discuss how our technical expertise can
-        help your business goals.
+        Whether you're a startup launching your first product or a growing business looking to scale, ViworkTech is ready to help you achieve your goals with modern technology solutions.
       </p>
 
       <div className="cta-buttons">

@@ -2,29 +2,24 @@ import "./About.css";
 
 const timelineData = [
   {
-    year: "2018",
-    title: "The Genesis",
+    year: "2023",
+    title: "ViworkTech Begins",
     description:
-      "ViworkTech was founded in a small studio with a mission to redefine technical consulting through an engineering-first lens.",
+      "Started with a vision to help startups build modern digital products.",
   },
   {
-    year: "2020",
-    title: "Scaling Resilience",
+    year: "2024",
+    title: "Expanded Our Services",
     description:
-      "Amidst global shifts, we doubled our headcount and shifted to a distributed architectural model, helping partners navigate digital transformation.",
+      "Added UI/UX Design, SEO, and Digital Marketing to provide complete digital solutions.",
   },
   {
-    year: "2022",
-    title: "Global Portfolio",
+    year: "2026",
+    title: "Building Future",
     description:
-      "Secured our first Fortune 500 partnership, delivering a bespoke data-processing engine that handled millions of transactions daily.",
+      "Continuing to innovate with AI, automation, cloud technologies, and scalable software solutions for businesses worldwide.",
   },
-  {
-    year: "PRESENT",
-    title: "Future Engineering",
-    description:
-      "Today, we continue to push the boundaries of WebGL, AI integration, and robust cloud systems for a global client base.",
-  },
+  
 ];
 
 const Timeline = () => {

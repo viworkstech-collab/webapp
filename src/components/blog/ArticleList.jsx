@@ -4,33 +4,33 @@ const ArticleList = () => {
   return (
     <section className="article-list">
       <ArticleCard
-        category="ENGINEERING"
-        date="March 14, 2024"
-        title="Scaling Distributed Systems: Lessons from the Edge of Infrastructure."
+        category="Mobile Apps"
+        date=""
+        title="Native vs Cross-Platform Apps: Which One Is Right for Your Business?"
       />
 
       <ArticleCard
-        category="ARCHITECTURE"
-        date="February 21, 2024"
-        title="The Modern Data Stack is Dead. Long Live the Modular Engine."
+        category="Web Development"
+        date=""
+        title="10 Essential Features Every Business Website Should Have in 2026"
       />
 
       <ArticleCard
-        category="STRATEGY"
-        date="January 18, 2024"
-        title="Why Intellectual Clarity is the Ultimate Competitive Advantage."
+        category="Digital Marketing"
+        date=""
+        title="5 Digital Marketing Strategies That Generate More Leads"
       />
 
       <ArticleCard
-        category="ENGINEERING"
-        date="December 10, 2023"
-        title="Rust vs C++: A Nuanced Take on Memory Safety in High-Frequency Environments."
+        category="Artificial Intelligence"
+        date=""
+        title="How AI Is Transforming Modern Businesses"
       />
 
       <ArticleCard
-        category="PRODUCT"
-        date="November 27, 2023"
-        title="Beyond MVP: Building for Permanence in a Throwaway Culture."
+        category="UI/UX Design"
+        date=""
+        title="How Great Design Improves Customer Experience"
       />
     </section>
   );

@@ -11,39 +11,39 @@ import {
 const cards = [
   {
     icon: <FaProjectDiagram />,
-    title: "Distributed Systems",
-    desc: "Architecting resilient, high-availability microservices that handle millions of concurrent requests without degradation.",
-    number: "01 / ARCHITECTURE",
+    title: "Web Application Development",
+    desc: "We build responsive, secure, and high-performance web applications tailored to your business goals.",
+    number: "01 /Development",
   },
   {
     icon: <FaShieldAlt />,
-    title: "Fortified Security",
-    desc: "Zero-trust protocols integrated into the DNA of your software.",
-    number: "02 / PROTECTION",
+    title: "Mobile App Development",
+    desc: "Create intuitive Android and iOS applications that deliver seamless user experiences.",
+    number: "02 /Mobile ",
   },
   {
     icon: <FaGlobe />,
-    title: "Edge Optimization",
-    desc: "Minimizing latency through intelligent global delivery.",
-    number: "03 / PERFORMANCE",
+    title: "Cloud Solutions",
+    desc: "Deploy scalable cloud infrastructure that improves performance, security, and reliability.",
+    number: "03 / Cloud",
   },
   {
     icon: <FaDatabase />,
-    title: "Data Pipeline",
-    desc: "Structured processing for real-time business intelligence.",
-    number: "04 / INTELLIGENCE",
+    title: "UI/UX Design",
+    desc: "Design engaging and user-friendly interfaces that enhance customer satisfaction.",
+    number: "04 / Design ",
   },
   {
     icon: <FaCode />,
-    title: "Custom APIs",
-    desc: "Cleanly documented, robust interfaces for third-party scaling.",
-    number: "05 / INTEGRATION",
+    title: "API Integration",
+    desc: "Connect your applications with third-party services using secure and efficient APIs.",
+    number: "05 / Integration",
   },
   {
     icon: <FaLayerGroup />,
-    title: "Legacy Modernization",
-    desc: "Transitioning monolithic systems into modern tech stacks with zero downtime.",
-    number: "06 / EVOLUTION",
+    title: "Software Maintenance & Support",
+    desc: "Ensure your applications remain secure, updated, and optimized with continuous support.",
+    number: "06 / Support",
   },
 ];
 
@@ -52,11 +52,11 @@ const Capabilities = () => {
     <section className="capabilities">
       <div className="cap-header">
         <div>
-          <span className="small-title">CAPABILITIES</span>
-          <h2>Tailored Engineering</h2>
+          <span className="small-title">OUR EXPERTISE</span>
+          <h2>Technology Solutions Designed for Success</h2>
         </div>
 
-        <button className="explore-btn hover-card">Explore Services</button>
+        <button className="explore-btn hover-card"></button>
       </div>
 
       <div className="cap-grid">

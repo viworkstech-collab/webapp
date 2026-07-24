@@ -6,21 +6,21 @@ const Stats = () => {
     <section className="stats-section">
 
       <div className="stat-box">
-        <h2>8+</h2>
-        <h3>Years Experience</h3>
-        <p>Delivering enterprise solutions globally.</p>
-      </div>
-
-      <div className="stat-box">
-        <h2>120+</h2>
+        <h2>50+</h2>
         <h3>Projects Delivered</h3>
-        <p>Across cloud, AI and infrastructure.</p>
+        <p></p>
       </div>
 
       <div className="stat-box">
-        <h2>98%</h2>
+        <h2>20+</h2>
+        <h3>Happy Clients</h3>
+        <p></p>
+      </div>
+
+      <div className="stat-box">
+        <h2>95%</h2>
         <h3>Client Satisfaction</h3>
-        <p>Trusted by startups and enterprises.</p>
+        <p></p>
       </div>
 
     </section>

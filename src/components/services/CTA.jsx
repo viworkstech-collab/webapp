@@ -5,10 +5,9 @@ const CTA = () => {
   return (
     <section className="cta-section">
       <h2>
-        Ready to build the foundation for your
-        <br />
-        next digital breakthrough?
+        Ready to Build Something Amazing?
       </h2>
+        <p>Let's turn your ideas into powerful digital solutions that help your business grow.</p>
 
       <div className="cta-buttons">
         <Link to="/contact">

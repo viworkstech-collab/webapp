@@ -3,14 +3,13 @@ import "./Blog.css";
 const BlogHero = () => {
   return (
     <section className="blog-hero">
-      <p className="blog-label">BLOG</p>
+      <p className="blog-label"></p>
 
       <div className="blog-content">
-        <h1>Insights & field notes.</h1>
+        <h1>Learn. Build. Grow with ViworkTech.</h1>
 
         <p>
-          A collection of technical observations, industry shifts,
-          and strategic perspectives from the ViworkTech engineering team.
+          Discover practical guides, industry trends, technology updates, SEO strategies, AI innovations, and digital marketing insights from the experts at ViworkTech
         </p>
       </div>
     </section>

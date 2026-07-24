@@ -9,15 +9,17 @@ const ProcessSection = () => {
           <p className="process-subtitle">How We Deliver</p>
 
           <h2 className="process-title">
-            A framework of
+           Our Proven Development Process
+
             <br />
-            <span className="hover-link">absolute precision.</span>
+            <span className="hover-link"></span>
           </h2>
         </div>
 
         <p className="process-text">
-          Iterative development paired with rigorous QA ensures every line of
-          code serves a purpose.
+          Every successful project starts with a clear strategy and ends with
+           measurable business results.
+
         </p>
       </div>
 

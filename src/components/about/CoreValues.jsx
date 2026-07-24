@@ -19,30 +19,29 @@ const CoreValues = () => {
 
           <div className="core-card hover-card">
   <FaDraftingCompass className="core-icon" />
-  <h3>Structural Integrity</h3>
+  <h3>Innovation</h3>
   <p>
-    We believe in building foundations that don't crumble
-    under scale. Quality is not a feature; it's the
-    requirement.
+   We embrace new technologies and creative thinking to build smarter digital solutions.
+
   </p>
 </div>
 
 <div className="core-card hover-card">
   <FaLightbulb className="core-icon" />
-  <h3>Intellectual Honesty</h3>
+  <h3>Quality</h3>
   <p>
-    We prioritize truth over comfort. If a solution isn't
-    right for your outcome, we'll tell you before a single
-    line of code is written.
+    
+ Every project is developed with attention to detail, performance, and long-term reliability.
+
   </p>
 </div>
 
 <div className="core-card hover-card">
   <FaTools className="core-icon" />
-  <h3>Obsessive Precision</h3>
+  <h3>Customer First</h3>
   <p>
-    Details are the difference between a product and an
-    experience. We sweat the 1% that others ignore.
+    Our clients are our partners. We focus on understanding their goals and delivering solutions that create real business value.
+
   </p>
 </div>
 </div>

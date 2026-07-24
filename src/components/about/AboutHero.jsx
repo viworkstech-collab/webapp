@@ -6,19 +6,20 @@ const AboutHero = () => {
       <div className="about-container">
 
         <p className="about-subtitle">
-          ABOUT OUR FIRM
+          
         </p>
 
         <h1>
-          We're engineers who care
+         Building Digital Solutions  
+
           <br />
-          about your <span className="hover-link">outcome.</span>
+          That<span className="hover-link"> Help</span> Businesses Grow.
         </h1>
 
         <p className="about-description">
-          ViworkTech was founded on the principle that technical excellence
-          should never be detached from business reality. We don't just build
-          software; we architect solutions that endure.
+          At ViworkTech, we transform ideas into powerful digital experiences. Our team develops modern websites,
+           mobile applications, AI-powered solutions,
+           and digital marketing strategies that help businesses grow with confidence.
         </p>
 
       </div>

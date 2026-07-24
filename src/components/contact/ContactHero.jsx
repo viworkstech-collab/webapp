@@ -14,38 +14,45 @@ const ContactHero = () => {
         <div className="contact-left">
 
           <h1>
-            Let's <span className="hover-link">build</span> something
+            Your Digital Transformation 
+            Starts Here.
+
+             <span className="hover-link"></span> 
             <br />
-            together.
+
           </h1>
 
           <div className="contact-info">
 
             <div>
               <h4>Email us</h4>
-              <p>hello@viworktech.com</p>
+              <p>viworkstech@gmail.com</p>
             </div>
 
-            <div>
-              <h4>Call us</h4>
-              <p>+1 (234) 567-890</p>
-            </div>
+            
 
             <div>
               <h4>Visit our studio</h4>
               <p>
-                124 Architectural Way,
+                80/1 , 12 th Main road 
+                1st cross near MSRIT Bengaluru KA-54
                 <br />
-                Stockholm, SE 111 22
+                 MSRIT Bengaluru KA-54
               </p>
             </div>
 
           </div>
 
           <div className="social-icons">
-            <button className="hover-btn"><FaInstagram /></button>
-            <button className="hover-btn"><FaLinkedinIn /></button>
-            <button className="hover-btn"><FaGlobe /></button>
+            <button className="hover-btn"><FaInstagram /> 
+            <a href="https://www.instagram.com/letsviworktech?igsh=MmMxcW02M3p3NWNu" target="_blank">
+            </a>
+            </button>
+            <button className="hover-btn"><FaLinkedinIn />
+            <a href=" https://www.linkedin.com/in/viwork-tech-55b756394/ " target="_blank">
+            </a>
+            </button>
+           
           </div>
 
         </div>

@@ -9,11 +9,11 @@ const PortfolioHero = () => {
 
         <div className="hero-left">
 
-          <span>PORTFOLIO</span>
+          <span></span>
 
           <h1>
-            Projects we're <br />
-            proud of.
+            Projects That Turn Ideas Into Impact.
+
           </h1>
 
         </div>
@@ -21,10 +21,8 @@ const PortfolioHero = () => {
         <div className="hero-right">
 
           <p>
-            An editorial selection of technical
-            architecture, strategy and bespoke digital
-            experiences crafted for global industry
-            leaders.
+            Explore a collection of websites, mobile applications, AI solutions, and digital marketing campaigns developed by ViworkTech to help businesses improve efficiency, increase visibility, and achieve measurable growth.
+
           </p>
 
         </div>

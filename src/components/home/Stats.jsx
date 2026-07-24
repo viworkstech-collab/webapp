@@ -2,20 +2,20 @@ import "./Home.css";
 
 const stats = [
   {
-    number: "120+",
-    label: "SYSTEMS LAUNCHED",
+    number: "150+",
+    label: "Projects Successfully Delivered",
   },
   {
     number: "99.9%",
-    label: "UPTIME AVERAGE",
+    label: "Client Satisfaction",
   },
   {
-    number: "14ms",
-    label: "MEDIAN LATENCY",
+    number: "10+",
+    label: "Years of Experience",
   },
   {
     number: "24/7",
-    label: "ACTIVE MONITORING",
+    label: "Technical Support",
   },
 ];
 

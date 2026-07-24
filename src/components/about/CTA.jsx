@@ -6,14 +6,14 @@ const CTA = () => {
       <div className="about-cta-container">
 
         <h2>
-          Ready to build for
-          <br />
-          the long term?
+          Ready to Transform Your Business?
+
+         
         </h2>
 
         <p>
-          Let's discuss how our engineering expertise can
-          help your business scale with confidence.
+          Let's build innovative digital solutions that help your business grow faster, smarter, and stronger.
+
         </p>
 
         <button className="hover-btn">

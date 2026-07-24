@@ -6,34 +6,26 @@ const MissionVision = () => {
       <div className="mission-container">
 
         <div className="mission-card hover-card">
-          <p className="card-number">01 / OUR MISSION</p>
-
+          <p className="card-number">01 / </p>
           <h2>
-            To bridge the gap between
-            complex engineering and
-            human-centric design.
+          OUR MISSION
+            
           </h2>
 
           <p className="card-text">
-            We aim to democratize high-end technical infrastructure,
-            making it accessible to visionaries who are ready to
-            scale without the friction of legacy thinking.
+            To empower businesses with innovative, reliable, and affordable technology solutions that simplify operations, improve customer experiences, and accelerate digital growth
           </p>
         </div>
 
         <div className="mission-card hover-card">
-          <p className="card-number">02 / OUR VISION</p>
+          <p className="card-number">02 /</p>
 
           <h2>
-            A world where
-            technology is an
-            invisible enabler.
+             OUR VISION
           </h2>
 
           <p className="card-text">
-            Envisioning a future where the friction between
-            idea and execution is zero, powered by robust,
-            modular, and intelligent systems.
+           To become a trusted technology partner for businesses worldwide by delivering impactful digital products powered by creativity, innovation, and emerging technologies.
           </p>
         </div>
 

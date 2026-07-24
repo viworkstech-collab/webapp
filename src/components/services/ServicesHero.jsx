@@ -3,18 +3,18 @@ import "./Services.css";
 const ServicesHero = () => {
   return (
     <section className="services-hero">
-      <p className="hero-subtitle">Our Expertise</p>
+      <p className="hero-subtitle" We Build Digital ></p>
 
       <h1 className="hero-title">
-        What we <span className="hover-link">build</span> and how
+       We Build Digital Solutions  <span className="hover-link">That Grow Businesses.</span> 
         <br />
-        we deliver it.
+        
       </h1>
 
       <p className="hero-description">
-        A boutique digital engineering studio crafting architectural-grade
-        software. We prioritize structural integrity over temporary trends,
-        delivering systems that scale and endure.
+        We build responsive, high-performance websites designed to convert visitors into customers.
+         Every website is optimized for speed, security, SEO, and long-term growth.
+
       </p>
     </section>
   );

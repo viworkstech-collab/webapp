@@ -6,14 +6,11 @@ const Newsletter = () => {
     <section className="newsletter">
       <div className="newsletter-left">
         <h2>
-          Insights from the forefront
-          <br />
-          of software.
+          Stay Ahead with Technology Insights
         </h2>
 
         <p>
-          Join 5,000+ engineers and product leaders who receive our monthly
-          brief on architectural trends and performance engineering.
+          Subscribe to receive the latest updates on software development, digital transformation, AI innovations, and industry trends directly to your inbox.
         </p>
 
         <div className="newsletter-form">
